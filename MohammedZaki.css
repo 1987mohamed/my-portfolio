@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 0px 15px 15px 0px;
+    padding: auto;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+#content {
+    margin-left: 10px;
+}
+
+#logo {
+    font: size 100px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+}
+
+#logo:hover {
+    color: orangered;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: right;
+    direction: rtl;
+}
+
+header li {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition-duration: 2ms;
+    transition-delay: 2ms;
+    transition: 0.5s;
+
+}
+
+header li a:hover {
+    color: orangered;
+    letter-spacing: 4px;
+}
+
+
+
+#home {
+    padding: 5px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    transition: 0.5s;
+
+
+}
+
+#home:hover {
+    color: blue;
+    background-color: white;
+    border-color: yellow;
+    transform: scale(1.1);
+    letter-spacing: 4px;
+}
+
+main {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#zico {
+    text-align: center;
+
+}
+
+.imag {
+    display: inline;
+    border: 2px solid white;
+    border-radius: 75%;
+    box-shadow: 50px;
+}
+
+#name {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#nimo {
+    font-size: 50px;
+    font-weight: 900;
+    color: brown;
+    cursor: grab;
+
+}
+
+#nimo:hover {
+    transition: 0.5s;
+    color: blue;
+    letter-spacing: 4px;
+}
+
+#name p {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#name p:hover {
+    transition: 0.5s;
+    color: greenyellow;
+    letter-spacing: 4px;
+}
+
+#name h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkmagenta;
+}
+
+#name h3:hover {
+    transition: 0.5s;
+    color: blue;
+    letter-spacing: 4px;
+}
+
+.prog {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+#prog img {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#index {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    transition: 0.8s;
+}
+#index:hover{
+    transform: scale(1.5);
+
+}
+
+#css {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    transition: 0.8s;
+}
+#css:hover{
+    transform: scale(1.5);
+}
+
+#js {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    padding-top: 10px;
+    transition: 0.8s;
+}
+#js:hover{
+transform: scale(1.5);
+}
+#strap {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    transition: 0.8s;
+}
+#strap:hover{
+    transform: scale(1.5);
+}
+#react {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    transition: 0.8s;
+}
+
+#react:hover{
+    transform: scale(1.5);
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+transition: 0.7s;
+
+
+}
+
+footer p:hover {
+    color: green;
+    cursor: grab;
+}
